@@ -24,5 +24,7 @@ omf install https://github.com/laughedelic/brew-completions spacefish
 
 
 ## NeoVim Config With This Link
-
-https://github.com/cemapel/vimrc
+Download .vimrc file to your home folder.
+```
+ln -s ~/.vimrc ~/.config/nvim/init.vim
+```
