@@ -8,13 +8,18 @@ I'm doing these after installing the Mac.
 
 ## Brew Packages I Installed
 ```
-brew install fish wget neovim lsd node
+brew install fish wget neovim lsd node terminal-notifier fzf neofetch
 ```
 
 ## Vim-Plug Installation
 ```
 sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
        https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
+```
+
+## Fish Plugin Installation
+```
+omf install https://github.com/laughedelic/brew-completions spacefish
 ```
 
 
