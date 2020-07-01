@@ -18,6 +18,6 @@ sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.
 ```
 
 
-## NeoVim Config Wit This Link
+## NeoVim Config With This Link
 
 https://github.com/cemapel/vimrc
