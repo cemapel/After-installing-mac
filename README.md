@@ -12,7 +12,7 @@ brew install fish wget neovim lsd node terminal-notifier fzf neofetch ripgrep ln
 ```
 ## Brew Cask Packages I Installed
 ```
-brew cask install spotify gimp
+brew cask install spotify gimp notion
 ```
 
 ## Vim-Plug Installation
