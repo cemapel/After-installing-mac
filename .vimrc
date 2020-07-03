@@ -1,5 +1,7 @@
+
 " NERDTreeGitStatusRefreshListener Error Fix
 set shell=sh
+
 " Spaces & Tabs {{{
 set tabstop=5       " number of visual spaces per TAB
 set softtabstop=4   " number of spaces in tab when editing
@@ -25,7 +27,8 @@ let mapleader = "\<Space>"
 call plug#begin('~/.vim/plugged')
 
 " Theme
-Plug 'morhetz/gruvbox'
+" Plug 'morhetz/gruvbox'
+Plug 'dracula/vim'
 " True snippet and additional text editing support
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 " fzf is a general-purpose command-line fuzzy finder.
@@ -37,13 +40,24 @@ Plug 'preservim/nerdtree'
 Plug 'Xuyuanp/nerdtree-git-plugin'
 " Status line
 Plug 'itchyny/lightline.vim'
+" Code Prettier
+Plug 'prettier/vim-prettier', { 'do': 'npm install' }
+" Colorizer
+Plug 'gko/vim-coloresque'
+
+
 
 " Initialize plugin system
 
 call plug#end()
 
 autocmd vimenter * NERDTree
-autocmd vimenter * colorscheme gruvbox
+if (has("termguicolors"))
+ set termguicolors
+endif
+syntax enable
+colorscheme dracula
+
 nmap <leader>gd <Plug>(coc-definiton)
 nmap <leader>gr <Plug>(coc-references)
 map <C-p> :Files<CR>
