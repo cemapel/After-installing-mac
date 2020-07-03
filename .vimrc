@@ -44,7 +44,8 @@ Plug 'itchyny/lightline.vim'
 Plug 'prettier/vim-prettier', { 'do': 'npm install' }
 " Colorizer
 Plug 'gko/vim-coloresque'
-
+" WakaTime
+Plug 'wakatime/vim-wakatime' 
 
 
 " Initialize plugin system
