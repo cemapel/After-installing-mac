@@ -8,7 +8,7 @@ I'm doing these after installing the Mac.
 
 ## Brew Packages I Installed
 ```
-brew install fish wget neovim lsd node terminal-notifier fzf neofetch ripgrep lnav tmux
+brew install fish wget neovim lsd node terminal-notifier fzf neofetch ripgrep lnav tmux tldr broot
 ```
 ## Brew Cask Packages I Installed
 ```
